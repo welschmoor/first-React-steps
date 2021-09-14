@@ -20,3 +20,48 @@ html {
     color: #545;
 }
 
+.mainnav-ul {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
+
+
+
+
+/*///////////////////////////////
+           TO DO
+///////////////////////////////*/
+.maindiv {
+    max-width: 400px;
+}
+
+.todo-ul {
+
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.todo-li {
+    background-color: rgb(205, 229, 240);
+    display: flex;
+    gap: 1rem;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+.todo-li:hover {
+    
+    background-color: rgb(216, 161, 140);    
+}
+
+span {
+    color: rgb(16, 168, 16);
+    font-weight: 500;
+}
+
+.todo-titleh1 {
+    margin-bottom: 1rem;
+    color: #444;
+}
